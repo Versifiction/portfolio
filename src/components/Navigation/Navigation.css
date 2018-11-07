@@ -19,10 +19,6 @@ nav {
     width: 150px;
 }
 
-.bg-light {
-    background-color: inherit !important;
-}
-
 ul.ml-auto.navbar-nav, a.navbar-brand {
     font-size: 1.25rem;
 }
