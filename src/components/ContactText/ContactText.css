@@ -1,0 +1,47 @@
+.competences {
+    background-color: #89867e;
+}
+
+.contact-text h3 {
+    font-size: 40px !important;
+    color: #414141;
+    font-weight: 700 !important;
+}
+
+.contact-text {
+    width: 35%;
+    float: left;
+}
+
+.contact-text-icons {
+    color: #4D83D3;
+}
+
+.contact-text-icons i:hover {
+    color: #414141;
+    cursor: pointer;
+}
+
+.contact-text-infos h4 {
+    color: #89867e;
+    font-weight: 400 !important;
+}
+
+.hr-thin {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(204, 204, 204, 0.5);
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+@media screen and (max-width: 996px) {
+  .contact-text {
+    width: inherit;
+  }
+}

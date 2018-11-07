@@ -1,0 +1,16 @@
+.competences {
+    background-color: #89867e;
+}
+
+.competences h3 {
+    font-size: 40px !important;
+    color: white;
+    text-align: center;
+    font-weight: 700 !important;
+}
+
+@media screen and (max-width: 991px) {
+    .conception-competences {
+        padding-bottom: 0rem;
+    }
+  }

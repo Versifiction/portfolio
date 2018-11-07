@@ -1,0 +1,41 @@
+.autres {
+    background-color: #fff;
+}
+
+.autres h3 {
+    font-size: 40px !important;
+    color: #414141;
+    text-align: center;
+    font-weight: 700 !important;
+}
+
+.autres-distinctions {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.autres-distinctions h4 {
+    font-size: 24px;
+    color: #414141;
+    text-align: center;
+    padding-top: 2rem;
+    font-weight: 600;
+}
+
+.autres-distinctions p {
+    font-size: 20px;
+    color: #89867e;
+    text-align: center;
+    padding-top: 1rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: 400;
+}
+
+.autres-distinctions img {
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    animation: 1s;
+}

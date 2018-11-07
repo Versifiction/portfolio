@@ -1,0 +1,43 @@
+.collaboration {
+    background-color: #4D83D3;
+}
+
+.collaboration h3 {
+    font-size: 40px !important;
+    color: white;
+    text-align: center;
+    font-weight: 700 !important;
+}
+
+.collaboration p {
+    font-size: 24px !important;
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: 400;
+}
+
+.collaboration a {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 250px;
+    margin-top: 30px;
+}
+
+.myButtonWhite {
+    padding: 1.05rem 2.75rem;
+    color: #fff !important;
+    background-color: #4D83D3;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border: .2rem solid #fff;
+    transition: color .3s, border .3s;
+}
+
+.myButtonWhite:hover {
+    color: #4D83D3 !important;
+    background-color: #fff;
+}
