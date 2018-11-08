@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/wordpress.2e2cbb5e.png"
   },
   {
-    "revision": "aeea7331d32a122e2d2a",
-    "url": "/static/css/main.14c833fb.chunk.css"
+    "revision": "c473c8e06c30ceefc8b3",
+    "url": "/static/css/main.3057effa.chunk.css"
   },
   {
     "revision": "511e11fe008e524bc96dd151bc97324b",
@@ -64,8 +64,8 @@ self.__precacheManifest = [
     "url": "/static/media/react.21cef5f5.png"
   },
   {
-    "revision": "aeea7331d32a122e2d2a",
-    "url": "/static/js/main.aeea7331.chunk.js"
+    "revision": "c473c8e06c30ceefc8b3",
+    "url": "/static/js/main.c473c8e0.chunk.js"
   },
   {
     "revision": "d0d49580330354047d1a5b4aefc23554",
@@ -124,7 +124,7 @@ self.__precacheManifest = [
     "url": "/static/css/1.ca5f75b1.chunk.css"
   },
   {
-    "revision": "d403137c695e1957929f255fd4bce722",
+    "revision": "1d9d31fb49f5ad4be055598f071f6163",
     "url": "/index.html"
   }
 ];
