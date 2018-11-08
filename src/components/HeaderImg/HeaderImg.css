@@ -112,11 +112,11 @@ h1 {
 
 @media screen and (max-width: 375px) {
     .header-title {
-        font-size: 40px !important;
+        font-size: 36px !important;
         padding-top: 75% !important;
     }
     .header-img h2 {
-        font-size: 30px !important;
+        font-size: 28px !important;
         padding-top: 77.5% !important;
     }
 }

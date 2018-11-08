@@ -55,7 +55,7 @@ class Footer extends Component {
               <p><Link href="/a-propos" to="/a-propos">Mon parcours</Link></p>
               <p><a href={ cv } download="CV_Marc-Charpentier">Mon CV</a></p>
               <p><Link href="/projets" to="/projets">Mes projets</Link></p>
-              <p><Link href="/contact" to="/contact">Mes contacter</Link></p>
+              <p><Link href="/contact" to="/contact">Me contacter</Link></p>
               </div>
             </Col>
             <Col xs="12" sm="6" lg="3" className="footer-text-suivre">
