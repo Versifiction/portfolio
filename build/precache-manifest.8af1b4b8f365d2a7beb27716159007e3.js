@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/static/media/wordpress.2e2cbb5e.png"
   },
   {
-    "revision": "c473c8e06c30ceefc8b3",
-    "url": "/static/css/main.3057effa.chunk.css"
+    "revision": "75d464bfd67f9b4680c6",
+    "url": "/static/css/main.7b9d752e.chunk.css"
   },
   {
     "revision": "511e11fe008e524bc96dd151bc97324b",
     "url": "/static/media/photo-head.511e11fe.jpg"
   },
   {
-    "revision": "735a31624b2db8674967",
-    "url": "/static/js/1.735a3162.chunk.js"
+    "revision": "c82cb5ec0747c3ff9fad",
+    "url": "/static/js/1.c82cb5ec.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -64,8 +64,8 @@ self.__precacheManifest = [
     "url": "/static/media/react.21cef5f5.png"
   },
   {
-    "revision": "c473c8e06c30ceefc8b3",
-    "url": "/static/js/main.c473c8e0.chunk.js"
+    "revision": "75d464bfd67f9b4680c6",
+    "url": "/static/js/main.75d464bf.chunk.js"
   },
   {
     "revision": "d0d49580330354047d1a5b4aefc23554",
@@ -120,11 +120,15 @@ self.__precacheManifest = [
     "url": "/static/media/contact-head.75b9e10a.jpg"
   },
   {
-    "revision": "735a31624b2db8674967",
-    "url": "/static/css/1.ca5f75b1.chunk.css"
+    "revision": "57324af7453853f2ccce3c8008ffddb9",
+    "url": "/static/media/mentionslegales-head.57324af7.jpg"
   },
   {
-    "revision": "1d9d31fb49f5ad4be055598f071f6163",
+    "revision": "c82cb5ec0747c3ff9fad",
+    "url": "/static/css/1.1adcd9f6.chunk.css"
+  },
+  {
+    "revision": "39fccb19993f8df13a136ac74bd011bf",
     "url": "/index.html"
   }
 ];
