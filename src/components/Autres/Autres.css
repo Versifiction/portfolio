@@ -19,7 +19,7 @@
     font-size: 24px;
     color: #414141;
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 1rem;
     font-weight: 600;
 }
 
@@ -38,4 +38,24 @@
     display: block;
     margin: 0 auto;
     animation: 1s;
+}
+
+@media screen and (max-width: 991px) {
+    .autres-distinctions-certificat, .autres-distinctions-anglais, .autres-distinctions-permis {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .autres-distinctions {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 349px) {
+    .subfooter p {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        line-height: inherit;
+    }
 }

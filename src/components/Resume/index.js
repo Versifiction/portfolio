@@ -23,7 +23,7 @@ class Resume extends Component {
               </p>
             </div>
             <div className="resume-cv">
-            <a href={ cv } download="CV_Marc-Charpentier" className="myButtonBlue">Télécharger mon CV</a>
+            <a href={ cv } className="myButtonBlue">Voir mon CV</a>
             </div>
           </div>
         </div>

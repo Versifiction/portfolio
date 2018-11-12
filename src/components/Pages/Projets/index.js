@@ -8,6 +8,10 @@ import Footer from '../../Footer';
 import projetsHead from '../../../images/projets-head.jpg';
 
 class Projets extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <div className="projets">

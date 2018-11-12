@@ -10,6 +10,10 @@ import Footer from '../../Footer';
 import aproposHead from '../../../images/apropos-head.jpg';
 
 class Apropos extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <div className="a-propos">

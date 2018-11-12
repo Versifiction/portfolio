@@ -78,7 +78,7 @@ class Footer extends Component {
           <div className="container">
             <Row>
               <Col>
-                <p>© Marc Charpentier - Développeur web junior - 2018 </p>
+                <p>© Marc Charpentier - 2018 - <Link href="/mentions-legales" to="/mentions-legales">Mentions légales</Link></p>
               </Col>
             </Row>
             </div>

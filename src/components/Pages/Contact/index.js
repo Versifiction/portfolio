@@ -9,6 +9,10 @@ import Footer from '../../Footer';
 import contactHead from '../../../images/contact-head.jpg';
 
 class Contact extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <div className="contact">

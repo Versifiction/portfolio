@@ -9,6 +9,10 @@ import Map from '../../Map';
 import Footer from '../../Footer';
 
 class Accueil extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <div className="accueil">
