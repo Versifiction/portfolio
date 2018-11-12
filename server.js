@@ -15,11 +15,15 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
-app.get('/', (req, res) => response.sendFile(`${__dirname}/src/components/ContactForm/index.js`));
+app.get('/', function(req, res, next) {
+  // Handle the get for this route
+});
 
-app.post('messages', (req, res) => {
+app.post('/messages', function(req, res, next) {
   const postBody = request.body;
+  res.json(message);
   console.log(postBody);
+  console.log(message);
 });
 
 const port = 5000;

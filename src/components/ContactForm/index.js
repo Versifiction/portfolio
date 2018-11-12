@@ -1,6 +1,17 @@
 import React, { Component } from 'react';
+import firebase from 'firebase';
 
 import './ContactForm.css';
+
+var config = {
+  apiKey: "AIzaSyAZGDzhcdbloh92FFbrrA4WIjevbdiukM8",
+  authDomain: "portfoli-8ff4b.firebaseapp.com",
+  databaseURL: "https://portfoli-8ff4b.firebaseio.com",
+  projectId: "portfoli-8ff4b",
+  storageBucket: "portfoli-8ff4b.appspot.com",
+  messagingSenderId: "935440828998"
+};
+firebase.initializeApp(config);
 
 class ContactForm extends Component {
   constructor() {
@@ -14,7 +25,7 @@ class ContactForm extends Component {
       messageError: false,
       isMessageSended: false,
       submitMessage: "",
-    }
+    };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
@@ -73,18 +84,19 @@ class ContactForm extends Component {
       });
     }
 
-    fetch('/messages', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      data: JSON.stringify(this.state)
-    }).then(function(response) {
-      console.log(response.status);
-      console.log(response);
+    var database = firebase.database();
+    var messagesRef = database.ref("messages");
+    var result = messagesRef.push().set({
+      clientName: this.state.clientName,
+      clientEmail: this.state.clientEmail,
+      clientTelephone: this.state.clientTelephone,
+      clientEntreprise: this.state.clientEntreprise,
+      messageContent: this.state.clientName,
     });
   }
 
   render() {
-    const { 
+    const {
       clientName,
       clientEmail,
       clientTelephone,
@@ -92,7 +104,7 @@ class ContactForm extends Component {
       messageContent,
       messageError,
       isMessageSended,
-      submitMessage 
+      submitMessage
     } = this.state;
     return (
       <div className="contact-form">
