@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './Apropos.css';
 
-import Bandeau from '../../Bandeau';
-import Resume from '../../Resume';
-import Competences from '../../Competences';
-import Navigation from '../../Navigation';
-import Autres from '../../Autres';
-import Footer from '../../Footer';
+import Top from '../../Molecules/Top';
+import Bandeau from '../../Molecules/Bandeau';
+import Resume from '../../Molecules/Resume';
+import Competences from '../../Molecules/Competences';
+import Navigation from '../../Molecules/Navigation';
+import Autres from '../../Molecules/Autres';
+import Footer from '../../Molecules/Footer';
 import aproposHead from '../../../images/apropos-head.jpg';
 
 class Apropos extends Component {
@@ -17,6 +18,7 @@ class Apropos extends Component {
   render() {
     return (
       <div className="a-propos">
+        <Top />
         <Navigation />
         <Bandeau page="À propos" backgroundImage={ aproposHead } />
         <Resume />

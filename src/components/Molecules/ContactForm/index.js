@@ -86,6 +86,7 @@ class ContactForm extends Component {
 
     var database = firebase.database();
     var messagesRef = database.ref("messages");
+    // eslint-disable-next-line
     var result = messagesRef.push().set({
       clientName: this.state.clientName,
       clientEmail: this.state.clientEmail,

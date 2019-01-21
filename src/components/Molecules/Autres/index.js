@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'reactstrap';
 
-import certificat from '../../images/picto-certificat.png';
-import diplome from '../../images/picto-diplome.png';
-import anglais from '../../images/picto-anglais.png';
-import permis from '../../images/picto-permis.png';
+import certificat from '../../../images/picto-certificat.png';
+import diplome from '../../../images/picto-diplome.png';
+import anglais from '../../../images/picto-anglais.png';
+import permis from '../../../images/picto-permis.png';
 import $ from 'jquery';
 
 import './Autres.css';

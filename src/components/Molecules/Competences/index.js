@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'reactstrap';
 
-import html from '../../images/html.png';
-import css from '../../images/css.png';
-import javascript from '../../images/js.png';
-import jquery from '../../images/jquery.png';
-import react from '../../images/react.png';
-import wordpress from '../../images/wordpress.png';
-import photoshop from '../../images/photoshop.png';
-import illustrator from '../../images/illustrator.png';
+import html from '../../../images/html.png';
+import css from '../../../images/css.png';
+import javascript from '../../../images/js.png';
+import jquery from '../../../images/jquery.png';
+import react from '../../../images/react.png';
+import wordpress from '../../../images/wordpress.png';
+import photoshop from '../../../images/photoshop.png';
+import illustrator from '../../../images/illustrator.png';
 
 import './Competences.css';
 

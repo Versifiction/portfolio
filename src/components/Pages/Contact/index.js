@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './Contact.css';
 
-import Bandeau from '../../Bandeau';
-import Navigation from '../../Navigation';
-import ContactPage from '../../ContactPage';
-import Map from '../../Map';
-import Footer from '../../Footer';
+import Top from '../../Molecules/Top';
+import Bandeau from '../../Molecules/Bandeau';
+import Navigation from '../../Molecules/Navigation';
+import ContactPage from '../../Molecules/ContactPage';
+import Map from '../../Molecules/Map';
+import Footer from '../../Molecules/Footer';
 import contactHead from '../../../images/contact-head.jpg';
 
 class Contact extends Component {
@@ -16,6 +17,7 @@ class Contact extends Component {
   render() {
     return (
       <div className="contact">
+        <Top />
         <Navigation />
         <Bandeau page="Contact" backgroundImage={ contactHead } />
         <ContactPage />

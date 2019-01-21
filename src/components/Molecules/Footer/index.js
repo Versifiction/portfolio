@@ -3,8 +3,8 @@ import { Row, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import $ from 'jquery';
 
-import cv from '../../documents/charpentier-cv.pdf';
-import logo from '../../images/MC-Full-Transparent.png';
+import cv from '../../../documents/cv.pdf';
+import logo from '../../../images/MC-Full-Transparent.png';
 import './Footer.css';
 
 class Footer extends Component {

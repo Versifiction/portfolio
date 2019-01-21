@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 
 import './MentionsLegales.css';
 
-import Bandeau from '../../Bandeau';
-import Navigation from '../../Navigation';
-import Mentions from '../../Mentions';
-import Footer from '../../Footer';
+import Top from '../../Molecules/Top';
+import Bandeau from '../../Molecules/Bandeau';
+import Navigation from '../../Molecules/Navigation';
+import Mentions from '../../Molecules/Mentions';
+import Footer from '../../Molecules/Footer';
 import mentionsLegalesHead from '../../../images/mentionslegales-head.jpg';
 
 class MentionsLegales extends Component {
@@ -16,6 +17,7 @@ class MentionsLegales extends Component {
   render() {
     return (
       <div className="mentions-legales">
+        <Top />
         <Navigation />
         <Bandeau page="Mentions légales" backgroundImage={ mentionsLegalesHead } />
         <Mentions />

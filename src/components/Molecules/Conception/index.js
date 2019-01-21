@@ -1,47 +1,15 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'reactstrap';
-import elaboration from '../../images/elaboration.svg';
-import realisation from '../../images/realisation.svg';
-import conception from '../../images/conception.svg';
+import elaboration from '../../../images/elaboration.svg';
+import realisation from '../../../images/realisation.svg';
+import conception from '../../../images/conception.svg';
+// eslint-disable-next-line
 import $ from 'jquery';
+
 import './Conception.css';
 
+
 class Conception extends Component {
-  componentDidMount() {
-    var elaboration = $('.conception-competences-elaboration').children('img');
-    var realisation = $('.conception-competences-realisation').children('img');
-    var conception = $('.conception-competences-conception').children('img');
-
-    function up() {
-      elaboration.on('mouseover', function() {
-        elaboration.css('padding-bottom', '5px');
-        elaboration.css('cursor', 'pointer');
-      })
-      realisation.on('mouseover', function() {
-        realisation.css('padding-bottom', '5px');
-        realisation.css('cursor', 'pointer');
-      })
-      conception.on('mouseover', function() {
-        conception.css('padding-bottom', '5px');
-        conception.css('cursor', 'pointer');
-      })
-    }
-
-    function stop() {
-      elaboration.on('mouseout', function() {
-        elaboration.css('padding-bottom', '0px');
-      })
-      realisation.on('mouseout', function() {
-        realisation.css('padding-bottom', '0px');
-      })
-      conception.on('mouseout', function() {
-        conception.css('padding-bottom', '0px');
-      })
-    }
-
-    up();
-    setTimeout(stop, 1000);
-  }
   render() {
     return (
       <div className="conception">

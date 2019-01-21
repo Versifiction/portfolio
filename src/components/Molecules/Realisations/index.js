@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'reactstrap';
 
-import memory from '../../images/memorymac.png';
-import oresto from '../../images/orestomac.png';
-import calculatrice from '../../images/calculatricemac.png';
-import apiRatp from '../../images/apiratpmac.png';
-import chat from '../../images/chatmac.png';
-import plusOuMoins from '../../images/plusmoinsmac.png';
-import cimade from '../../images/newslettermac.png';
-import journeeFemmes from '../../images/8marsmac.png';
+import memory from '../../../images/memorymac.png';
+import oresto from '../../../images/orestomac.png';
+import calculatrice from '../../../images/calculatricemac.png';
+import apiRatp from '../../../images/ratpmac.jpg';
+import chat from '../../../images/chatmac.png';
+import plusOuMoins from '../../../images/plusmoinsmac.png';
+import todo from '../../../images/mactodo.jpg';
+import cimade from '../../../images/newslettermac.png';
+import journeeFemmes from '../../../images/8marsmac.png';
 import './Realisations.css';
 
 class Realisations extends Component {
@@ -19,7 +20,7 @@ class Realisations extends Component {
           <div className="content">
             <h3>Réalisations</h3>
             <div className="separator not-centered"></div>
-            <p>Vous pouvez survoler chaque réalisation pour avoir le court descriptif de la réalisation</p>
+            <p class="hover-projects">Vous pouvez survoler chaque réalisation pour avoir le court descriptif de la réalisation</p>
             <Row className="realisations-exemples">
               <Col xs="12" sm="6" lg="4" className="content-base">
                 <a href="https://versifiction.github.io/memory/">
@@ -54,7 +55,7 @@ class Realisations extends Component {
             </Row>
             <Row className="realisations-exemples">
               <Col xs="12" sm="6" lg="4" className="content-base api-ratp">
-                <a href="https://versifiction.github.io/api-ratp-horaires/">
+                <a href="https://versifiction.github.io/api-ratp/">
                   <div className="content-overlay"></div>
                   <img src={ apiRatp } alt="Projet api-ratp" />
                   <div className="content-details fadeIn-top">
@@ -73,13 +74,13 @@ class Realisations extends Component {
                   </div>
                 </a>
               </Col>
-              <Col xs="12" sm="6" lg="4" className="content-base plus-ou-moins">
-                <a href="https://versifiction.github.io/plus-moins/">
+              <Col xs="12" sm="6" lg="4" className="content-base todo">
+                <a href="https://github.com/Versifiction/todo-list">
                   <div className="content-overlay"></div>
-                  <img src={ plusOuMoins } alt="Projet plus-ou-moins" />
+                  <img src={ todo } alt="Projet todo" />
                   <div className="content-details fadeIn-top">
-                    <h5>Jeu du Plus ou Moins</h5>
-                    <p>Création en Javascript natif du célèbre jeu du "Plus ou Moins".</p>
+                    <h5>Todo-list</h5>
+                    <p>Création d'une todo-list avec ReactJS</p>
                   </div>
                 </a>
               </Col>
@@ -101,7 +102,15 @@ class Realisations extends Component {
                   <p>Conception / réalisation graphique d’un mini-site pour la Journée des Droits des Femmes</p>
                 </div>
               </Col>
-              <Col xs="12" sm="6" lg="4">
+              <Col xs="12" sm="6" lg="4" className="content-base plus-ou-moins">
+                <a href="https://versifiction.github.io/plus-moins/">
+                  <div className="content-overlay"></div>
+                  <img src={ plusOuMoins } alt="Projet plus-ou-moins" />
+                  <div className="content-details fadeIn-top">
+                    <h5>Jeu du Plus ou Moins</h5>
+                    <p>Création en Javascript natif du célèbre jeu du "Plus ou Moins".</p>
+                  </div>
+                </a>
               </Col>
             </Row>
           </div>

@@ -1,41 +1,70 @@
 .header-img {
     width: 100%;
     height: 100vh;
-    background-image: url(../../images/photo-head.jpg);
+    background-image: url(../../../images/photo-head.jpg);
     background-position: center;
     background-size: cover;
 }
 
-h1 {
-    color: white !important;
+.header-text {
     padding-top: 30%;
-    font-size: 60px !important;
-    text-shadow: 0px 0px 3px #000000;
+}
+
+.header-logo {
+    width: 125px;
+    margin: 0 auto;
+    display: block;
+}
+
+h1.header-title {
+    color: white !important;
+    font-size: 66px !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    text-shadow: 0px 0px 1px #000000;
 }
 
 .header-title {
-    position: absolute;
     white-space: nowrap;
-    animation: floatTextLeft 2s ease-in-out;
 }
 
-@-webkit-keyframes floatTextLeft{
-    from {
-      left: 0%;
-    }
-    to {
-      left: 390px;
-    }
+.header-subtitle {
+    visibility: visible;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.bounceInDown {
+    -webkit-animation-name: bounceInDown;
+    animation-name: bounceInDown;
+}
+
+.bounceInLeft {
+    -webkit-animation-name: bounceInLeft;
+    animation-name: bounceInLeft;
+}
+
+.bounceInRight {
+    -webkit-animation-name: bounceInRight;
+    animation-name: bounceInRight;
 }
 
 .header-img h2 {
     color: #4D83D3 !important;
-    font-weight: 700 !important;
     text-shadow: 0px 0px 3px #ffffff !important;
     font-size: 50px !important;
-    padding-top: 32.5%;
-    position: absolute;
     white-space: nowrap;
+    text-align: center !important;
 }
 
 .scroll-downs {
@@ -44,7 +73,7 @@ h1 {
     bottom: 30px;
     left: 0;
     margin: auto;
-    width: 34px;
+    width: 25px;
     height: 55px;
     z-index: 1;
 }
@@ -80,43 +109,34 @@ h1 {
 }
 
 @media screen and (max-width: 1200px) {
-    .header-title {
+    h1.header-title {
         animation: inherit;
     }
-    .header-img h2 {
+    h2.header-subtitle {
         animation: inherit;
     }
 }
 
-@media screen and (max-width: 992px) {
-    .header-title {
-        font-size: 40px !important;
-        padding-top: 40% !important;
+@media screen and (max-width: 788px) {
+    h1.header-title {
+        font-size: 48px !important;
     }
-    .header-img h2 {
-        font-size: 30px !important;
-        padding-top: 42.5% !important;
+    h2.header-subtitle {
+        font-size: 38px !important;
     }
 }
 
-@media screen and (max-width: 660px) {
-    .header-title {
-        font-size: 40px !important;
-        padding-top: 57.5% !important;
-    }
-    .header-img h2 {
+@media screen and (max-width: 508px) {
+    h1.header-title {
         font-size: 30px !important;
-        padding-top: 60% !important;
+    }
+    h2.header-subtitle {
+        font-size: 26px !important;
     }
 }
 
 @media screen and (max-width: 375px) {
-    .header-title {
-        font-size: 36px !important;
-        padding-top: 75% !important;
-    }
-    .header-img h2 {
-        font-size: 28px !important;
-        padding-top: 77.5% !important;
+    .header-text {
+        padding-top: 55%;
     }
 }

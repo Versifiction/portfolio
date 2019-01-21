@@ -8,7 +8,7 @@ import { Collapse,
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-import logo from '../../images/MC-Full-Transparent.png';
+import logo from '../../../images/MC-Full-Transparent.png';
 import './Navigation.css';
 
 class Navigation extends Component {
@@ -30,7 +30,6 @@ class Navigation extends Component {
   render() {
     return (
       <div className="navigation">
-        <div className="thetop"></div>
         <Navbar color="light" light expand="md">
           <div className="container">
             <NavbarBrand href="/"><img src={ logo } alt="Logo Marc Charpentier" /></NavbarBrand>

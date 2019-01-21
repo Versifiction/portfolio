@@ -1,20 +1,18 @@
 var app = {
     init: function() {
-        console.log('init');
-        // app.smoothScroll();
         $(document).on('scroll', app.scrollHandler);
     },
-    /* scrollHandler: function() {
-        if ((window.pageYOffset) >= 88) {
-            $('.bg-light').css('background-color', '#f8f9fa');
-            $('.nav-item').css('color', '#414141');
-            $('.navbar-brand').css('color', '#414141');
-        } else {
-            $('.bg-light').css('background-color', 'transparent');
-            $('.nav-item').css('color', 'white');
-            $('.navbar-brand').css('color', 'white !important');
+    scrollHandler: function() {
+        var navbar = document.getElementsByClassName("navbar")[0];
+
+        var sticky = navbar.offsetTop;
+
+        if ((window.pageYOffset) >= sticky) {
+            navbar.classList.add("sticky");
+            } else {
+            navbar.classList.remove("sticky");
         }
-    }, */
+    },
     smoothScroll: function() {
         $('a[href*="#"]')
         // Remove links that don't actually link to anything
@@ -51,7 +49,7 @@ var app = {
             }
         }
         });
-         }
+    }
 };
 
 $(app.init);

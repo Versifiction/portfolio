@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './Accueil.css';
 
-import Navigation from '../../Navigation';
-import HeaderImg from '../../HeaderImg';
-import Conception from '../../Conception';
-import Collaboration from '../../Collaboration';
-import Map from '../../Map';
-import Footer from '../../Footer';
+import Top from '../../Molecules/Top';
+import Navigation from '../../Molecules/Navigation';
+import HeaderImg from '../../Molecules/HeaderImg';
+import Conception from '../../Molecules/Conception';
+import Collaboration from '../../Molecules/Collaboration';
+import Map from '../../Molecules/Map';
+import Footer from '../../Molecules/Footer';
 
 class Accueil extends Component {
   componentDidMount() {
@@ -16,8 +17,9 @@ class Accueil extends Component {
   render() {
     return (
       <div className="accueil">
-        <Navigation />
+        <Top />
         <HeaderImg />
+        <Navigation />
         <Conception />
         <Collaboration />
         <Map />
