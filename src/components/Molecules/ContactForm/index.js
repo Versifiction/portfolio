@@ -4,12 +4,12 @@ import firebase from 'firebase';
 import './ContactForm.css';
 
 var config = {
-  apiKey: "AIzaSyAZGDzhcdbloh92FFbrrA4WIjevbdiukM8",
-  authDomain: "portfoli-8ff4b.firebaseapp.com",
-  databaseURL: "https://portfoli-8ff4b.firebaseio.com",
-  projectId: "portfoli-8ff4b",
-  storageBucket: "portfoli-8ff4b.appspot.com",
-  messagingSenderId: "935440828998"
+  apiKey: process.env.API_KEY,
+  authDomain: process.env.AUTH_DOMAIN,
+  databaseURL: process.env.DATABASE_URL,
+  projectId: process.env.PROJECT_ID,
+  storageBucket: process.env.STORAGE_BUCKET,
+  messagingSenderId: process.env.MESSAGING_SENDER_ID
 };
 firebase.initializeApp(config);
 
