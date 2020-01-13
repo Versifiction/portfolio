@@ -59,27 +59,27 @@ class Autres extends Component {
       <div className="autres">
         <div className="container">
           <div className="content">
-              <h3>Autres</h3>
+              <h3 className="wow fadeInDown">Autres</h3>
               <div className="separator small grey"></div>
               <Row className="autres-distinctions">
               <Col xs="12" sm="6" lg="3" className="autres-distinctions-diplome">
                 <img src={ diplome } alt="Icône diplôme" />
-                <h4>Titre professionnel</h4>
+                <h4 className="wow fadeInDown">Titre professionnel</h4>
                 <p>Titre professionnel de niveau III Designer Web</p>
               </Col>
               <Col xs="12" sm="6" lg="3" className="autres-distinctions-certificat">
                 <img src={ certificat } alt="Icône certificat" />
-                <h4>Certificat</h4>
+                <h4 className="wow fadeInDown">Certificat</h4>
                 <p>Certifié OpQuast niveau avancé (815/1000)</p>
               </Col>
               <Col xs="12" sm="6" lg="3" className="autres-distinctions-anglais">
                 <img src={ anglais } alt="Icône anglais" />
-                <h4>Anglais</h4>
+                <h4 className="wow fadeInDown">Anglais</h4>
                 <p>Niveau avancé en anglais</p>
               </Col>
               <Col xs="12" sm="6" lg="3" className="autres-distinctions-permis">
                 <img src={ permis } alt="Icône permis" />
-                <h4>Permis</h4>
+                <h4 className="wow fadeInDown">Permis</h4>
                 <p>Titulaire du permis B</p>
               </Col>
             </Row>

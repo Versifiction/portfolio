@@ -7,10 +7,12 @@ var app = {
 
         var sticky = navbar.offsetTop;
 
-        if ((window.pageYOffset) >= sticky) {
+        if (window.pageYOffset > sticky) {
             navbar.classList.add("sticky");
-            } else {
+            navbar.classList.remove("not-sticky");
+        } else {
             navbar.classList.remove("sticky");
+            navbar.classList.add("not-sticky");
         }
     },
     smoothScroll: function() {

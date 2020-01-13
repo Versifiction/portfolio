@@ -18,7 +18,7 @@ class Realisations extends Component {
       <div className="realisations">
         <div className="container">
           <div className="content">
-            <h3>Réalisations</h3>
+            <h3 className="wow fadeInDown">Réalisations</h3>
             <div className="separator not-centered"></div>
             <p class="hover-projects">Vous pouvez survoler chaque réalisation pour avoir le court descriptif de la réalisation</p>
             <Row className="realisations-exemples">

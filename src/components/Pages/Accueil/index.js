@@ -18,8 +18,8 @@ class Accueil extends Component {
     return (
       <div className="accueil">
         <Top />
-        <HeaderImg />
         <Navigation />
+        <HeaderImg />
         <Conception />
         <Collaboration />
         <Map />

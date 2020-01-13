@@ -110,7 +110,7 @@ class ContactForm extends Component {
     return (
       <div className="contact-form">
         <div className="content">
-          <h3>Écrivez moi un message</h3>
+          <h3 className="wow fadeInDown">Écrivez moi un message</h3>
           <div className="separator not-centered"></div>
           {!isMessageSended && <form className="form" method="post">
             <input type="text" name="clientName" id="name" placeholder="Nom *" size="30" maxLength="30" value={clientName} onChange={this.handleChange} />

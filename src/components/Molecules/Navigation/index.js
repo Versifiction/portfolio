@@ -30,7 +30,7 @@ class Navigation extends Component {
   render() {
     return (
       <div className="navigation">
-        <Navbar color="light" light expand="md">
+        <Navbar expand="md">
           <div className="container">
             <NavbarBrand href="/"><img src={ logo } alt="Logo Marc Charpentier" /></NavbarBrand>
             <NavbarToggler onClick={this.toggle} className="navbar-toggle" />

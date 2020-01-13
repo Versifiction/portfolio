@@ -7,7 +7,7 @@
 }
 
 .header-text {
-    padding-top: 30%;
+    padding-top: 20%;
 }
 
 .header-logo {
@@ -36,29 +36,6 @@ h1.header-title {
     -moz-animation-delay: 1s;
     animation-delay: 1s;
 }
-
-.animated {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-}
-
-.bounceInDown {
-    -webkit-animation-name: bounceInDown;
-    animation-name: bounceInDown;
-}
-
-.bounceInLeft {
-    -webkit-animation-name: bounceInLeft;
-    animation-name: bounceInLeft;
-}
-
-.bounceInRight {
-    -webkit-animation-name: bounceInRight;
-    animation-name: bounceInRight;
-}
-
 .header-img h2 {
     color: #4D83D3 !important;
     text-shadow: 0px 0px 3px #ffffff !important;

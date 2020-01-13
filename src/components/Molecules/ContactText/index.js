@@ -7,16 +7,16 @@ class ContactText extends Component {
     return (
       <div className="contact-text">
         <div className="content">
-          <h3>Me contacter</h3>
+          <h3 className="wow fadeInDown">Me contacter</h3>
           <div className="separator not-centered"></div>
           <div className="contact-text-infos">
-            <h4>Adresse e-mail</h4>
+            <h4 className="wow fadeInDown">Adresse e-mail</h4>
             <p>marc_charpentier@hotmail.fr</p>
             <div className="hr-thin"></div>
-            <h4>Téléphone</h4>
+            <h4 className="wow fadeInDown">Téléphone</h4>
             <p>06 75 47 23 94</p>
             <div className="hr-thin"></div>
-            <h4>Réseaux sociaux</h4>
+            <h4 className="wow fadeInDown">Réseaux sociaux</h4>
             <div className="contact-text-icons">
               <a href="https://www.linkedin.com/in/charpentiermarc/">
                 <i className="fab fa-linkedin fa-fw fa-3x"></i>

@@ -15,22 +15,22 @@ class Conception extends Component {
       <div className="conception">
         <div className="container">
           <div className="content">
-            <h3>Vous recherchez un développeur web ?</h3>
+            <h3 className="wow fadeInDown">Vous recherchez un développeur web ?</h3>
             <div className="separator small grey"></div>
             <Row className="conception-competences">
-              <Col xs="12" sm="6" md="4" lg="4" className="conception-competences-elaboration">
+              <Col xs="12" sm="6" md="4" lg="4" className="conception-competences-elaboration wow bounceInLeft">
                 <img src={ elaboration } alt="Icône élaboration" />
-                <h4>Identité visuelle</h4>
+                <h4 className="wow fadeInDown">Identité visuelle</h4>
                 <p>Elaboration de la charte graphique, des wireframes et des maquettes de votre site</p>
               </Col>
-              <Col xs="12" sm="6" md="4" lg="4" className="conception-competences-realisation">
+              <Col xs="12" sm="6" md="4" lg="4" className="conception-competences-realisation wow bounceInUp">
                 <img src={ realisation } alt="Icône réalisation" />
-                <h4>Webdesign</h4>
+                <h4 className="wow fadeInDown">Webdesign</h4>
                 <p>Réalisation d'éléments graphiques pour votre site (images, bannières, illustrations...)</p>
               </Col>
-              <Col xs="12" sm={{ size: 6, offset: 3 }} md={{ size: 4, offset: 0 }} lg="4" className="conception-competences-conception">
+              <Col xs="12" sm={{ size: 6, offset: 3 }} md={{ size: 4, offset: 0 }} lg="4" className="conception-competences-conception wow bounceInRight">
                 <img src={ conception } alt="Icône conception" />
-                <h4>Développement</h4>
+                <h4 className="wow fadeInDown">Développement</h4>
                 <p>Conception de votre site par mes compétences en développement web</p>
               </Col>
             </Row>

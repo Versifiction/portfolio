@@ -11,13 +11,17 @@ nav {
 
 .navbar {
     width: 100% !important;
-    padding: 1.5rem 1rem !important;
 }
 
 .sticky {
     position: fixed !important;
     top: 0;
     width: 100%;
+    background-color: white;
+}
+
+.not-sticky {
+    background-color: transparent;
 }
 
 .navbar-brand img {

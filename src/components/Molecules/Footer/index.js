@@ -44,13 +44,13 @@ class Footer extends Component {
               </div>
             </Col>
             <Col xs="12" sm="6" lg="3" className="footer-text-apropos">
-              <h4>À propos</h4>
+              <h4 className="wow fadeInDown">À propos</h4>
               <p>Développeur web junior spécialisé Front-end, j'ai suivi deux formations en Webdesign et en Développement web,
                  me permettant de réaliser des sites à la fois fonctionnels et esthétiques.<br />
               </p>
             </Col>
             <Col xs="12" sm="6" lg="3" className="footer-text-ensavoirplus">
-              <h4>En savoir plus</h4>
+              <h4 className="wow fadeInDown">En savoir plus</h4>
               <div className="footer-text-ensavoirplus-p">
               <p><Link href="/a-propos" to="/a-propos">Mon parcours</Link></p>
               <p><a href={ cv } download="CV_Marc-Charpentier">Mon CV</a></p>
@@ -59,7 +59,7 @@ class Footer extends Component {
               </div>
             </Col>
             <Col xs="12" sm="6" lg="3" className="footer-text-suivre">
-              <h4>Me suivre</h4>
+              <h4 className="wow fadeInDown">Me suivre</h4>
               <div className="footer-icons">
                 <a href="https://www.linkedin.com/in/charpentiermarc/">
                   <i className="fab fa-linkedin fa-fw fa-3x"></i>
