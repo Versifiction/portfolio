@@ -1,50 +1,61 @@
 .conception h3 {
-    font-size: 40px !important;
-    color: #414141;
-    text-align: center;
-    font-weight: 700 !important;
+  font-size: 40px !important;
+  color: #414141;
+  text-align: center;
+  font-weight: 700 !important;
 }
 
 .conception-competences {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
 }
 
 .conception-competences h4 {
-    font-size: 24px;
-    color: #414141;
-    text-align: center;
-    padding-top: 2rem;
-    font-weight: 600;
+  font-size: 24px;
+  color: #414141;
+  text-align: center;
+  padding-top: 2rem;
+  font-weight: 600;
 }
 
-.conception-competences p {
-    font-size: 20px;
-    color: white;
-    text-align: center;
-    padding-top: 1rem;
-    padding-left: 10%;
-    padding-right: 10%;
-    font-weight: 400;
+.conception .conception-competences p {
+  font-size: 20px;
+  color: #414141;
+  text-align: center;
+  padding-top: 1rem;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-weight: 400;
+}
+
+.competences .conception-competences p {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-weight: 400;
 }
 
 .conception-competences img {
-    height: 100px;
-    display: block;
-    margin: 0 auto;
-    animation: 1s;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+  animation: 1s;
 }
 
 .conception-competences-elaboration img:hover,
 .conception-competences-realisation img:hover,
 .conception-competences-conception img:hover {
-    padding-bottom: 5px;
-    cursor: pointer;
+  padding-bottom: 5px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 575px) {
-    .conception-competences-realisation, .conception-competences-conception {
-        margin-top: 3rem;
-    }
+  .conception-competences-realisation,
+  .conception-competences-conception {
+    margin-top: 3rem;
+  }
 }
